@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:text="E-Wallet"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="45sp"
+        android:gravity="center_horizontal"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:id="@+id/iv1"
+        android:layout_marginTop="33dp"
+        android:background="@drawable/payment"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create An Account or Login"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="20dp"
+        android:id="@+id/lgbtn"
+        android:background="@color/blue"
+        android:textColor="@color/white"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:layout_marginTop="40dp"
+        android:id="@+id/regbtn"
+        android:background="@color/blue"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
